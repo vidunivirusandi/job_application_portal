@@ -29,11 +29,12 @@
 
                 
                 <div class="hidden md:flex space-x-4">
-                    <button class="bg-gray-100 text-blue-500 px-4 py-2 rounded-lg hover:bg-blue-100">Login</button>
-                    <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Register</button>
+                    <button class="bg-[#5e17eb] text-white px-4 py-2 rounded-lg hover:bg-[#7a3de6]">Login</button>
+                    <button class="border-2 border-[#5e17eb] text-[#5e17eb] px-4 py-2 rounded-lg hover:bg-[#5e17eb] hover:text-white">Register</button>
+
                 </div>
 
-                <!-- Hamburger Menu (visible on small screens) -->
+                <!-- Hamburger Menu (visible on small screens) --> 
                 <div class="md:hidden flex items-center space-x-4">
                     <button id="hamburger-menu" class="text-gray-700 focus:outline-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
@@ -46,6 +47,7 @@
     </header>
 
     <!-- Mobile Menu (hidden by default) -->
+    
     <div id="mobile-menu" class="md:hidden hidden bg-white shadow-lg p-4 space-y-4">
         <ul class="text-gray-700 space-y-4">
             <li><a href="#about-us" class="hover:text-[#5e17eb]">About Us</a></li>
@@ -56,6 +58,31 @@
             <li><button class="w-full text-left bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Register</button></li>
         </ul>
     </div>
+
+    <section class="hero bg-gradient-to-r from-[#5e17eb] via-[#a0a0ff] to-[#ffb3e6] text-white py-20">
+        <div class="container mx-auto text-center">
+            
+            <h1 class="text-4xl md:text-5xl font-semibold mb-4 leading-relaxed">
+                Find, Apply, and Secure <br> Your Ideal Career
+            </h1>
+    
+            <!-- Description -->
+            <p class="text-lg md:text-xl mb-8">
+                Explore thousands of job opportunities across various industries.<br> Find your perfect match, apply with ease, and take the next step in your career journey.
+            </p>
+    
+            <!-- Buttons -->
+            <div class="space-x-4">
+                <button class="bg-white text-[#5e17eb] px-6 py-3 rounded-lg hover:bg-gray-200">
+                    Explore Jobs
+                </button>
+                <button class="border-2 border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-[#5e17eb]">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </section>
+    
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white text-center p-4">
