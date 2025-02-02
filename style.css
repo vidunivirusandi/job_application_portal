@@ -1,3 +1,21 @@
 html {
     scroll-behavior: smooth;
 }
+
+@keyframes moving-gradient {
+    0% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.hero-bg {
+    background: linear-gradient(45deg, #5e17eb, #a0a0ff, #ffb3e6);
+    background-size: 200% 200%;  /* Make the gradient large enough to move */
+    animation: moving-gradient 8s ease infinite;  /* Apply the animation */
+}
